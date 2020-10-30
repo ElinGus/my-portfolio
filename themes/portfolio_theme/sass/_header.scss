@@ -1,0 +1,30 @@
+/*.navbar {
+    display: flex;
+    flex-direction: row;
+
+    .col-logo {
+        width: 50%;
+
+        h1 {
+            font-family: 'EB Garamond', serif;
+            margin-left: 10%;
+        }
+    }
+    .col-nav {
+        width: 50%;
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        
+            a {
+                color: #1c325f;
+                text-decoration: none;
+                margin: 10px;
+                font-family: 'EB Garamond', serif;
+            }
+        }
+    }
+}
+*/
