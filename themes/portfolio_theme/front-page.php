@@ -29,9 +29,9 @@ if ( have_posts() ) :
             <div class="textblock-col">
                 <h1>Om mig</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco.
+                "Jag är som mest effektiv när jag får jobba kreativt, använda mitt öga för detaljer och 
+                samtidigt får de tekniska utmaningarna från programmering, vilket väckte intresset för 
+                webbutvecklaryrket."
                 </p>
                 <button>Läs mer</button>
             </div>
@@ -44,16 +44,19 @@ if ( have_posts() ) :
              <h1>Portfolio</h1>
 
              <div class="work-columns">
-                <div class="work-col-1">
+                <div class="work-col">
                     <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work1">
                 </div>
-                <div class="work-col-2">
+
+                <div class="work-col">
                     <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work2">
                 </div>
-                <div class="work-col-3">
+
+                <div class="work-col">
                     <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work3">   
                 </div>
              </div>
+
              <div class="portfolio-btn"><button>Se portfolio</button></div>
          </section>
 
