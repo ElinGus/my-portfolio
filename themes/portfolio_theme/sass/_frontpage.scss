@@ -8,6 +8,8 @@ body {
     .home-block {
         display: flex;
         flex-direction: row;
+
+        margin-bottom: 20%;
         
         .col-1 {
             width: 50%;
@@ -85,10 +87,59 @@ body {
     }
 }
 
+.about-me {
+    background-color: #c6d5c3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .textblock-col {
+        width: 50%;
+        margin-left: 5%;
+
+        h1 {
+            color: #6b7b65;
+            font-family: 'EB Garamond', serif;
+            font-size: 1.5rem;
+            padding-top: 3%;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: black;
+            font-size: 2.5rem;
+            font-family: 'EB Garamond', serif;
+        }
+        
+        button {
+            width: 20%;
+            padding: 1.7%;
+            color: black;
+            border: #ebac9f;
+            font-family: 'EB Garamond', serif;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            background-color: #ebac9f;
+        }
+    }
+
+    .image-col {
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+        
+        img {
+            width: 55%;
+            //height: 100%;
+            //margin-left: 202px;
+        } 
+    }
+}
+
 
 .portfolio-section {
-    margin-bottom: 15%;
-    margin-top: 25%;
+    //margin-bottom: 15%;
+    //margin-top: 25%;
 
     h1 {
         color: #1c325f;
@@ -155,58 +206,7 @@ body {
 }
 
 
-
-.about-me {
-    background-color: #c6d5c3;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-
-    .textblock-col {
-        width: 50%;
-        margin-left: 5%;
-
-        h1 {
-            color: #6b7b65;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.5rem;
-            padding-top: 3%;
-            text-transform: uppercase;
-        }
-
-        p {
-            color: black;
-            font-size: 2.5rem;
-            font-family: 'EB Garamond', serif;
-        }
-        
-        button {
-            width: 20%;
-            padding: 1.7%;
-            color: black;
-            border: #ebac9f;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            background-color: #ebac9f;
-        }
-    }
-
-    .image-col {
-        width: 60%;
-        display: flex;
-        justify-content: flex-end;
-        
-        img {
-            width: 55%;
-            //height: 100%;
-            //margin-left: 202px;
-        } 
-    }
-}
-
-
-
+/*
 .my-skills {
     display: flex;
     flex-direction: column;
@@ -315,3 +315,4 @@ body {
         }
     }
 }
+*/

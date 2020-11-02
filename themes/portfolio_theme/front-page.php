@@ -25,23 +25,6 @@ if ( have_posts() ) :
             </div> 
          </section>
 
-         <section class="portfolio-section">
-             <h1>Portfolio</h1>
-
-             <div class="work-columns">
-                <div class="work-col-1">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work1">
-                </div>
-                <div class="work-col-2">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/opendesktop.jpg" alt="work2">
-                </div>
-                <div class="work-col-3">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/workinprogress.jpg" alt="work3">   
-                </div>
-             </div>
-             <div class="portfolio-btn"><button>Se portfolio</button></div>
-         </section>
-
          <section class="about-me">
             <div class="textblock-col">
                 <h1>Om mig</h1>
@@ -57,7 +40,26 @@ if ( have_posts() ) :
             </div>
          </section>
 
-         <section class="my-skills">
+         <section class="portfolio-section">
+             <h1>Portfolio</h1>
+
+             <div class="work-columns">
+                <div class="work-col-1">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work1">
+                </div>
+                <div class="work-col-2">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work2">
+                </div>
+                <div class="work-col-3">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work3">   
+                </div>
+             </div>
+             <div class="portfolio-btn"><button>Se portfolio</button></div>
+         </section>
+
+         
+
+        <!-- <section class="my-skills">
              <div class="skill-heading"><h1>Mina kunskaper</h1></div>
 
              <div class="skill-row-1">
@@ -83,7 +85,7 @@ if ( have_posts() ) :
                     <img src="<?php bloginfo('template_directory'); ?>/images/desktopinsofa.jpg" alt="">   
                  </div>
              </div>
-         </section>
+         </section> -->
 
         <?php 
     endwhile; 
