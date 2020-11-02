@@ -13,8 +13,8 @@ if ( have_posts() ) :
                     </div>
                     <img class="top-image" src="<?php bloginfo('template_directory'); ?>/images/workplace.jpg" alt="">
                     <img class="buttom-image" src="<?php bloginfo('template_directory'); ?>/images/parkbench.jpg" alt="">
-                    <!-- <img src="<?php bloginfo('template_directory'); ?>/images/desktopinsofa.jpg" alt="Elin"> -->
                 </div>
+                
                 <div class="col-2">
                     <nav><?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?></nav>
                     <div class="headline-text">

@@ -347,5 +347,70 @@ body {
     }
 }
 */
+/* line 2, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+.home-section .home-block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20%; }
+  /* line 8, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+  .home-section .home-block .col-1 {
+    width: 50%; }
+    /* line 11, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-1 .logo {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.5rem;
+      line-height: 136%;
+      position: absolute;
+      margin-left: 3%;
+      color: #3a353f;
+      z-index: 2; }
+    /* line 21, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-1 .top-image {
+      width: 30%;
+      position: absolute;
+      z-index: 2;
+      margin-top: 10%;
+      margin-left: 10%; }
+    /* line 29, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-1 .buttom-image {
+      width: 35%;
+      position: absolute;
+      z-index: 1; }
+  /* line 36, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+  .home-section .home-block .col-2 {
+    width: 50%; }
+    /* line 40, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-2 nav .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      list-style-type: none;
+      margin: 5%; }
+      /* line 47, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+      .home-section .home-block .col-2 nav .menu a {
+        color: #1c325f;
+        text-decoration: none;
+        margin: 10px;
+        font-family: 'EB Garamond', serif;
+        font-size: 1.2rem; }
+        /* line 54, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+        .home-section .home-block .col-2 nav .menu a:hover {
+          border-bottom: 2px solid #1c325f; }
+        /* line 57, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+        .home-section .home-block .col-2 nav .menu a:active {
+          border-bottom: 2px solid #1c325f; }
+    /* line 66, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-2 .headline-text h1 {
+      color: #1c325f;
+      font-family: 'EB Garamond', serif;
+      font-size: 7rem;
+      margin-top: 200px;
+      margin-bottom: 0; }
+    /* line 73, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    .home-section .home-block .col-2 .headline-text h2 {
+      color: #1c325f;
+      font-family: 'EB Garamond', serif;
+      font-size: 3rem;
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
