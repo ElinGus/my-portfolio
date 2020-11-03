@@ -60,36 +60,6 @@ if ( have_posts() ) :
              <div class="portfolio-btn"><button>Se portfolio</button></div>
          </section>
 
-         
-
-        <!-- <section class="my-skills">
-             <div class="skill-heading"><h1>Mina kunskaper</h1></div>
-
-             <div class="skill-row-1">
-                 <div class="skill-web-col-1">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/desktopinsofa.jpg" alt="">
-                 </div>
-                 <div class="skill-web-col-2">
-                    <h1>Webbutveckling</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco.</p>
-                 </div>
-             </div>
-
-             <div class="skill-row-2">
-                 <div class="skill-design-col-1">
-                    <h1>Design</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco.</p>
-                 </div>
-                 <div class="skill-design-col-2">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/desktopinsofa.jpg" alt="">   
-                 </div>
-             </div>
-         </section> -->
-
         <?php 
     endwhile; 
 endif; 

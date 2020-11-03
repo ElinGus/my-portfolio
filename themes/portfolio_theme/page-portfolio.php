@@ -7,7 +7,6 @@ if ( have_posts() ) :
 
         <!-- content -->
 
-
         <?php 
     endwhile; 
 endif; 

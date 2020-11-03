@@ -237,125 +237,15 @@ body {
       text-transform: uppercase;
       background-color: #ebac9f; }
 
-/*
-.my-skills {
-    display: flex;
-    flex-direction: column;
-    
-
-    .skill-heading h1 {
-        color: #1c325f;
-        font-family: 'EB Garamond', serif;
-        font-size: 2.5rem;
-        //margin-left: 5%;
-        margin-bottom: 5%;
-    }
-
-    .skill-row-1 {
-        //width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        //background-color: #ebac9f;
-        margin-left: 200px;
-        margin-right: 200px;
-
-        .skill-web-col-1 {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            //margin-top: 3%;
-            //margin-left: 10%;
-
-            img {
-                width: 400px;
-                height: 400px;
-            }
-        }
-
-        .skill-web-col-2 {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            
-
-            h1 {
-                color: #1c325f;
-                font-family: 'EB Garamond', serif;
-                font-size: 2rem;
-                //padding-top: 5%;
-                //padding-right: 10%;
-                //padding-left: 5%;
-            }
-    
-            p {
-                color: black;
-                font-family: 'EB Garamond', serif;
-                font-size: 1.3rem;
-                //padding-right: 10%;
-                //padding-left: 5%;
-                //margin-right: 10%;
-            }
-        }
-    }
-
-    .skill-row-2 {
-        //width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        //background-color: #c6d5c3;
-
-        .skill-design-col-1 {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            
-
-            h1 {
-                color: #1c325f;
-                font-family: 'EB Garamond', serif;
-                font-size: 2rem;
-                //padding-top: 5%;
-                //padding-right: 5%;
-                //padding-left: 10%;
-            }
-    
-            p {
-                color: black;
-                font-family: 'EB Garamond', serif;
-                font-size: 1.3rem;
-                //padding-right: 5%;
-                //padding-left: 10%;
-                //margin-right: 10%;
-            }
-        }
-
-        .skill-design-col-2 {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            //margin-right: 10%;
-
-            img {
-                width: 400px;
-                height: 400px;
-            }
-        }
-    }
-}
-*/
-/* line 2, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+/* line 2, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
 .home-section .home-block {
   display: flex;
   flex-direction: row;
   margin-bottom: 20%; }
-  /* line 8, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+  /* line 8, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
   .home-section .home-block .col-1 {
     width: 50%; }
-    /* line 11, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 11, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-1 .logo {
       font-family: 'EB Garamond', serif;
       font-size: 1.5rem;
@@ -364,53 +254,81 @@ body {
       margin-left: 3%;
       color: #3a353f;
       z-index: 2; }
-    /* line 21, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 21, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-1 .top-image {
       width: 30%;
       position: absolute;
       z-index: 2;
       margin-top: 10%;
       margin-left: 10%; }
-    /* line 29, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 29, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-1 .buttom-image {
       width: 35%;
       position: absolute;
       z-index: 1; }
-  /* line 36, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+  /* line 36, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
   .home-section .home-block .col-2 {
     width: 50%; }
-    /* line 40, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 40, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-2 nav .menu {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
       list-style-type: none;
       margin: 5%; }
-      /* line 47, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+      /* line 47, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
       .home-section .home-block .col-2 nav .menu a {
         color: #1c325f;
         text-decoration: none;
         margin: 10px;
         font-family: 'EB Garamond', serif;
         font-size: 1.2rem; }
-        /* line 54, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+        /* line 54, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
         .home-section .home-block .col-2 nav .menu a:hover {
           border-bottom: 2px solid #1c325f; }
-        /* line 57, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+        /* line 57, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
         .home-section .home-block .col-2 nav .menu a:active {
           border-bottom: 2px solid #1c325f; }
-    /* line 66, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 66, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-2 .headline-text h1 {
       color: #1c325f;
       font-family: 'EB Garamond', serif;
       font-size: 7rem;
       margin-top: 200px;
       margin-bottom: 0; }
-    /* line 73, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_aboutpage.scss */
+    /* line 73, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_about.scss */
     .home-section .home-block .col-2 .headline-text h2 {
       color: #1c325f;
       font-family: 'EB Garamond', serif;
       font-size: 3rem;
       margin: 0; }
+
+/* line 1, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+body {
+  margin: 0; }
+
+/* line 3, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+.nav-container {
+  width: 100%; }
+  /* line 7, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+  .nav-container nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 5%; }
+    /* line 14, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+    .nav-container nav .menu a {
+      color: #1c325f;
+      text-decoration: none;
+      margin: 10px;
+      font-family: 'EB Garamond', serif;
+      font-size: 1.2rem; }
+      /* line 21, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+      .nav-container nav .menu a:hover {
+        border-bottom: 2px solid #1c325f; }
+      /* line 24, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_navbar.scss */
+      .nav-container nav .menu a:active {
+        border-bottom: 2px solid #1c325f; }
 
 /*# sourceMappingURL=style.css.map */
