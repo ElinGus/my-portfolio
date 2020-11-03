@@ -5,11 +5,13 @@ body {
 }
 
 .home-section {
+    margin-bottom: 10%;
+    border: 3px solid chartreuse;
+
     .home-block {
         display: flex;
         flex-direction: row;
-
-        margin-bottom: 20%;
+        //margin-bottom: 20%;
         
         .col-1 {
             width: 50%;
@@ -93,8 +95,10 @@ body {
     display: flex;
     flex-direction: row;
 
+    border: 3px solid chartreuse;
+
     .textblock-col {
-        width: 50%;
+        width: 80%;
         margin-left: 5%;
 
         h1 {
@@ -122,7 +126,7 @@ body {
             background-color: #ebac9f;
         }
     }
-
+    /*
     .image-col {
         width: 60%;
         display: flex;
@@ -134,12 +138,14 @@ body {
             //margin-left: 202px;
         } 
     }
+    */
 }
 
 
 .portfolio-section {
-    margin-bottom: 10%;
     //margin-top: 25%;
+    margin-bottom: 10%;
+    border: 3px solid chartreuse;
 
     h1 {
         color: #1c325f;

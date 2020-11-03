@@ -35,9 +35,11 @@ if ( have_posts() ) :
                 </p>
                 <button>Läs mer</button>
             </div>
+            <!--
             <div class="image-col">
                 <img src="<?php bloginfo('template_directory'); ?>/images/Elin_sierrafilter.jpg" alt="Elin">
             </div>
+            -->
          </section>
 
          <section class="portfolio-section">
