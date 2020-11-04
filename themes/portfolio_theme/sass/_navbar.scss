@@ -4,9 +4,14 @@ body {margin: 0;}
     .navbar {
         display: flex;
         flex-direction: row;
+
+        @media screen and (min-width: 320px) {
+            
+        }
         
         .col-logo {
-            width: 50%;
+            width: 30%;
+            border: 3px solid red;
 
             .logo {
                 font-family: 'EB Garamond', serif;
@@ -16,11 +21,20 @@ body {margin: 0;}
                 margin-left: 3%;
                 color: #3a353f;
                 z-index: 2;
+
+                @media screen and (max-width: 320px) {
+                    font-size: 1rem;
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 1.5rem;
+                }
             }   
         }
     
         .col-menu {
-            width: 50%;
+            width: 70%;
+            border: 3px solid yellow;
 
             nav {
                 .menu {
@@ -43,9 +57,28 @@ body {margin: 0;}
                         &:active {
                             border-bottom: 2px solid #1c325f;
                         }
+
+                        .icon {
+                            display: none;
+                          }
                     }
                 }
             }
         }
+
+    }
+}
+
+// Mobile breakpoint
+@media screen and (min-width: 320px) {
+    .nav-section {
+        border: 3px solid blue;
+    }
+}
+
+// Tablet breakpoint
+@media screen and (min-width: 768px) {
+    .nav-section {
+        border: 3px solid purple;
     }
 }

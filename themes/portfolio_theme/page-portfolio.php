@@ -5,8 +5,25 @@
 if ( have_posts() ) : 
     while ( have_posts() ) : the_post(); 
         ?>
+        <section class="portfolio-section">
+             <h1>Portfolio</h1>
 
-        <!-- content -->
+             <div class="work-columns">
+                <div class="work-col">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work1">
+                </div>
+
+                <div class="work-col">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work2">
+                </div>
+
+                <div class="work-col">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work3">   
+                </div>
+             </div>
+
+             <div class="portfolio-btn"><button>Se portfolio</button></div>
+         </section>
 
         <?php 
     endwhile; 

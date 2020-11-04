@@ -94,11 +94,12 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 28%;
 
     border: 3px solid chartreuse;
 
     .textblock-col {
-        width: 80%;
+        width: 70%;
         margin-left: 5%;
 
         h1 {
@@ -116,8 +117,9 @@ body {
         }
         
         button {
-            width: 20%;
+            width: 15%;
             padding: 1.7%;
+            margin-bottom: 3%;
             color: black;
             border: #ebac9f;
             font-family: 'EB Garamond', serif;
@@ -142,58 +144,19 @@ body {
 }
 
 
-.portfolio-section {
-    //margin-top: 25%;
-    margin-bottom: 10%;
-    border: 3px solid chartreuse;
 
-    h1 {
-        color: #1c325f;
-        font-family: 'EB Garamond', serif;
-        font-size: 2.5rem;
-        margin-left: 5%;
-        margin-top: 5%;
-    }
 
-    .work-columns {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        //margin-left: 5%;
-
-        .work-col {
-            //width: 33%;
-            &:nth-child(2) {
-                margin-right: 60px;
-                margin-left: 60px;
-            }
-            img {
-                width: 350px;
-                height: 350px;
-                object-fit: cover;
-            }
-        }
-    
-    }
-
-    .portfolio-btn {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: flex-end;
-
-        button {
-            width: 10%;
-            margin-top: 1%;
-            margin-right: 9%;
-            padding: 1%;
-            color: black;
-            border: #ebac9f;
-            font-family: 'EB Garamond', serif;
-            font-size: 1rem;
-            text-transform: uppercase;
-            background-color: #ebac9f;
-        }
+// Mobile breakpoint
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .home-section {
+        border: 3px solid blue;
     }
 }
+
+// Tablet breakpoint
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .home-section {
+        border: 3px solid red;
+    }
+}
+    
