@@ -1,30 +1,19 @@
 body {
     margin: 0;
-    //background-color: #fcf4ec;
     background-color: #f7f6f2;
 }
 
 .home-section {
     margin-bottom: 10%;
-    border: 3px solid chartreuse;
+    //border: 3px solid chartreuse;
 
     .home-block {
         display: flex;
         flex-direction: row;
         //margin-bottom: 20%;
         
-        .col-1 {
+        .img-col {
             width: 50%;
-
-            .logo {
-                font-family: 'EB Garamond', serif;
-                font-size: 1.5rem;
-                line-height: 136%;
-                position: absolute;
-                margin-left: 3%;
-                color: #3a353f;
-                z-index: 2;
-            }
 
             .top-image {
                 width: 30%;
@@ -41,34 +30,88 @@ body {
             }    
         }
     
-        .col-2 {
+        .menu-col {
             width: 50%;
 
-            nav {
-                .menu {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    list-style-type: none;
-                    margin: 5%;
-                
-                    a {
-                        color: #1c325f;
-                        text-decoration: none;
-                        margin: 10px;
-                        font-family: 'EB Garamond', serif;
-                        font-size: 1.2rem;
+            .overlay {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #bbd9da;
+                overflow-x: hidden;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
 
-                        &:hover {
-                            border-bottom: 2px solid #1c325f;
-                        }
-                        &:active {
-                            border-bottom: 2px solid #1c325f;
+                .closebtn {
+                    position: absolute;
+                    top: 20px;
+                    right: 45px;
+                    font-size: 35px;
+                    color: #FFFFFF;
+                }
+
+                .overlay-content {
+                    position: relative;
+                    top: 25%;
+                    width: 100%;
+                    margin-top: 30px;
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: center;
+
+                    nav {
+                        .menu {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            list-style-type: none;
+                            margin: 5%;
+                        
+                            a {
+                                color: #1c325f;
+                                text-decoration: none;
+                                margin: 10px;
+                                font-family: 'EB Garamond', serif;
+                                font-size: 1.2rem;
+                                display: block;
+                                transition: 0.3s;
+        
+                                &:hover, &:focus {
+                                    border-bottom: 2px solid #1c325f;
+                                }
+                                &:active {
+                                    border-bottom: 2px solid #1c325f;
+                                }
+                            }
                         }
                     }
                 }
+
+                @media screen and (max-height: 450px) {
+                    .overlay a {font-size: 20px}
+                    .overlay .closebtn {
+                    font-size: 40px;
+                    top: 15px;
+                    right: 35px;
+                    }
+                }
             }
-            
+
+            .burger-menu {
+                position: absolute;
+                top: 20px;
+                right: 45px;
+                font-size: 35px;  
+                font-size: 35px;
+                cursor: pointer;
+                color: #1c325f;
+            }
+
             .headline-text {
 
                 h1 {
@@ -88,62 +131,6 @@ body {
         }
     }
 }
-
-.about-me {
-    background-color: #c6d5c3;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 28%;
-
-    border: 3px solid chartreuse;
-
-    .textblock-col {
-        width: 70%;
-        margin-left: 5%;
-
-        h1 {
-            color: #6b7b65;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.5rem;
-            padding-top: 3%;
-            text-transform: uppercase;
-        }
-
-        p {
-            color: black;
-            font-size: 2.5rem;
-            font-family: 'EB Garamond', serif;
-        }
-        
-        button {
-            width: 15%;
-            padding: 1.7%;
-            margin-bottom: 3%;
-            color: black;
-            border: #ebac9f;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            background-color: #ebac9f;
-        }
-    }
-    /*
-    .image-col {
-        width: 60%;
-        display: flex;
-        justify-content: flex-end;
-        
-        img {
-            width: 55%;
-            //height: 100%;
-            //margin-left: 202px;
-        } 
-    }
-    */
-}
-
-
 
 
 // Mobile breakpoint
