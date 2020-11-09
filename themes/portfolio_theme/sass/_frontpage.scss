@@ -8,6 +8,7 @@ body {
     //border: 3px solid chartreuse;
 
     .home-block {
+        width: 100%;
         display: flex;
         flex-direction: row;
         //margin-bottom: 20%;
@@ -37,10 +38,10 @@ body {
                 height: 100%;
                 width: 0;
                 position: fixed;
-                z-index: 1;
+                z-index: 3;
                 top: 0;
                 left: 0;
-                background-color: #bbd9da;
+                background-color: #f7f6f2;
                 overflow-x: hidden;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
@@ -49,10 +50,10 @@ body {
 
                 .closebtn {
                     position: absolute;
-                    top: 20px;
+                    top: 45px;
                     right: 45px;
                     font-size: 35px;
-                    color: #FFFFFF;
+                    color: #1c325f;
                 }
 
                 .overlay-content {
@@ -77,9 +78,8 @@ body {
                                 text-decoration: none;
                                 margin: 10px;
                                 font-family: 'EB Garamond', serif;
-                                font-size: 1.2rem;
+                                font-size: 2rem;
                                 display: block;
-                                transition: 0.3s;
         
                                 &:hover, &:focus {
                                     border-bottom: 2px solid #1c325f;
@@ -93,8 +93,8 @@ body {
                 }
 
                 @media screen and (max-height: 450px) {
-                    .overlay a {font-size: 20px}
-                    .overlay .closebtn {
+                    a {font-size: 20px}
+                    .closebtn {
                     font-size: 40px;
                     top: 15px;
                     right: 35px;
@@ -104,16 +104,14 @@ body {
 
             .burger-menu {
                 position: absolute;
-                top: 20px;
+                top: 45px;
                 right: 45px;
                 font-size: 35px;  
-                font-size: 35px;
                 cursor: pointer;
                 color: #1c325f;
             }
 
             .headline-text {
-
                 h1 {
                     color: #1c325f;
                     font-family: 'EB Garamond', serif;
@@ -121,6 +119,7 @@ body {
                     margin-top: 200px;
                     margin-bottom: 0;
                 }
+
                 h2 {
                     color: #1c325f;  
                     font-family: 'EB Garamond', serif;

@@ -29,5 +29,6 @@ if ( have_posts() ) :
 endif; 
 ?>
 
+<?php get_template_part('template-parts/footerbar'); ?>
 <?php get_footer(); ?>
 
