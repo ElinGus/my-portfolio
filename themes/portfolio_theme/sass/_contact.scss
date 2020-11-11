@@ -1,35 +1,59 @@
-body {margin: 0;}
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
 
 .heading {
-    color: #3a353f;
-    font-family: 'EB Garamond', serif;
-    font-size: 2.5rem;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
+    //border: 2px solid green; 
+
+    h1 {
+        color: #3a353f;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        //border: 2px solid indigo; 
+        h1 {font-size: 1.8rem;}
+    }
+    
 }
+
 
 .contact-section {
     display: flex;
-    padding: 0px 100px 60px 100px;
+    flex-direction: row;
+    padding: 0px 300px 60px 300px;
+    //border: 2px solid green;
 
     .contact_text {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        width: 50%;
+        //width: 50%;
 
         p {
             color: black;
-            font-size: 1.5rem;
-            font-family: 'EB Garamond', serif;
+            font-size: 1.4rem;
             //text-align: center;
             margin: 0;
         }
+
+        .contact_info {
+            margin-top: 5%;
+            a {
+                color: black;
+                font-size: 1.4rem;
+                text-decoration: none;
+                display: block;
+            }
+        }
     }
 
-    .contact_info {
+    /*.contact_info {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -39,24 +63,22 @@ body {margin: 0;}
         a {
             color: black;
             font-size: 1.5rem;
-            font-family: 'EB Garamond', serif;
             text-decoration: none;
         }
-    }    
-}
+    } */
 
-
-// Mobile breakpoint
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .contact-section {
-        border: 3px solid blue;
+    @media screen and (max-width: 600px) {
+        //border: 2px solid indigo; 
+        padding: 0px 30px 60px 30px;
+        .contact_text p {font-size: 1.2rem;}
+        .contact_text .contact_info a {font-size: 1.2rem;}
     }
-}
 
-// Tablet breakpoint
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .contact-section {
-        border: 3px solid red;
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+        //border: 2px solid red; 
+        padding: 0px 150px 60px 150px;
+        .contact_text p {font-size: 1.3rem;}
+        .contact_text  .contact_info a {font-size: 1.3rem;}
     }
+
 }
-    
