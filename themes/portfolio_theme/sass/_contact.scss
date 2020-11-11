@@ -21,7 +21,6 @@ body {
     
 }
 
-
 .contact-section {
     display: flex;
     flex-direction: row;
@@ -43,7 +42,7 @@ body {
         }
 
         .contact_info {
-            margin-top: 5%;
+            margin-top: 10%;
             a {
                 color: black;
                 font-size: 1.4rem;
@@ -53,19 +52,6 @@ body {
         }
     }
 
-    /*.contact_info {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-        width: 50%;
-
-        a {
-            color: black;
-            font-size: 1.5rem;
-            text-decoration: none;
-        }
-    } */
 
     @media screen and (max-width: 600px) {
         //border: 2px solid indigo; 
