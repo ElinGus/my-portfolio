@@ -1,53 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+.about-heading {
+    h1 {
+        font-size: 2rem;
+        color: #1c325f;
+        padding-left: 40px;    
+    }
+
+    @media screen and (max-width: 600px) {
+        //border: 2px solid indigo; 
+        .about-heading h1 {font-size: 1.8rem;}
+    }
+}
+
 .about-me {
-    background-color: #c6d5c3;
     //width: 100%;
     display: flex;
     flex-direction: row;
-    //margin-top: 28%;
+    //margin-top: 8%;
+    margin-bottom: 8%;
+    //border: 3px solid chartreuse;
 
-    border: 3px solid chartreuse;
-
-    .textblock-col {
-        width: 70%;
-        margin-left: 5%;
-
-        h1 {
-            color: #6b7b65;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.5rem;
-            padding-top: 3%;
-            text-transform: uppercase;
-        }
+    .textblock {
+        //width: 50%;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
 
         p {
-            color: black;
-            font-size: 2.5rem;
-            font-family: 'EB Garamond', serif;
-        }
-        
-        button {
-            width: 15%;
-            padding: 1.7%;
-            margin-bottom: 3%;
-            color: black;
-            border: #ebac9f;
-            font-family: 'EB Garamond', serif;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            background-color: #ebac9f;
+            font-size: 1.4rem;
         }
     }
-    /*
+
+
     .image-col {
-        width: 60%;
-        display: flex;
-        justify-content: flex-end;
+        //width: 50%;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
         
         img {
-            width: 55%;
-            //height: 100%;
-            //margin-left: 202px;
+            width: 400px;
+            height: 400px;
+            object-fit: fill;
+            
         } 
     }
-    */
+
+
+    @media screen and (max-width: 900px) {
+        //border: 2px solid indigo; 
+        display: flex;
+        flex-wrap: wrap;
+
+        .textblock p {font-size: 1.2rem;}
+        .image-col img {
+            width: 300px;
+            height: 300px;
+            margin-top: 25px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        } 
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 899px) {
+        //border: 2px solid red; 
+        .image-col img {
+            margin-top: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        } 
+    }
+    
 }
