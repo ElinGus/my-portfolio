@@ -253,8 +253,7 @@ body {
 
 /* line 1, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
 .portfolio-section {
-  margin-bottom: 10%;
-  border: 3px solid chartreuse; }
+  margin-bottom: 10%; }
   /* line 6, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
   .portfolio-section h1 {
     color: #1c325f;
@@ -267,39 +266,44 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; }
-    /* line 23, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    align-items: center;
+    flex-wrap: wrap; }
+    /* line 24, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
     .portfolio-section .work-columns .work-col:nth-child(2) {
       margin-right: 60px;
       margin-left: 60px; }
-    /* line 27, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    /* line 28, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
     .portfolio-section .work-columns .work-col img {
       width: 350px;
       height: 350px;
       object-fit: cover; }
-  /* line 36, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
-  .portfolio-section .portfolio-btn {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-end; }
-    /* line 42, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
-    .portfolio-section .portfolio-btn button {
-      width: 10%;
-      margin-top: 1%;
-      margin-right: 9%;
-      padding: 1%;
-      color: black;
-      border: #ebac9f;
-      font-family: 'EB Garamond', serif;
-      font-size: 1rem;
-      text-transform: uppercase;
-      background-color: #ebac9f; }
-  @media screen and (max-width: 900px) {
-    /* line 1, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
-    .portfolio-section {
-      display: flex;
-      flex-wrap: wrap; } }
+  @media screen and (max-width: 600px) {
+    /* line 39, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section h1 {
+      font-size: 2.5rem; }
+    /* line 41, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section .work-columns .work-col img {
+      width: 270px;
+      height: 270px;
+      margin-top: 40px; } }
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    /* line 51, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section .work-columns .work-col:nth-child(2) {
+      margin-right: 0; }
+    /* line 52, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section .work-columns .work-col img {
+      width: 275px;
+      height: 275px;
+      margin-top: 60px; } }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* line 62, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section .work-columns .work-col:nth-child(2) {
+      margin-right: 0; }
+    /* line 63, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_portfolio.scss */
+    .portfolio-section .work-columns .work-col img {
+      width: 285px;
+      height: 285px;
+      margin-top: 60px; } }
 
 /* line 1, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_contact.scss */
 body {
@@ -312,7 +316,7 @@ body {
   padding-bottom: 30px; }
   /* line 11, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_contact.scss */
   .heading h1 {
-    color: #3a353f;
+    color: #1c325f;
     font-size: 2.5rem;
     text-align: center; }
   @media screen and (max-width: 600px) {

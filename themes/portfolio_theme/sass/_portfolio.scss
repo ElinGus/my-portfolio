@@ -1,7 +1,7 @@
 .portfolio-section {
     //margin-top: 25%;
     margin-bottom: 10%;
-    border: 3px solid chartreuse;
+    //border: 3px solid chartreuse;
 
     h1 {
         color: #1c325f;
@@ -16,6 +16,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         //margin-left: 5%;
 
         .work-col {
@@ -33,32 +34,38 @@
     
     }
 
-    .portfolio-btn {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: flex-end;
-
-        button {
-            width: 10%;
-            margin-top: 1%;
-            margin-right: 9%;
-            padding: 1%;
-            color: black;
-            border: #ebac9f;
-            font-family: 'EB Garamond', serif;
-            font-size: 1rem;
-            text-transform: uppercase;
-            background-color: #ebac9f;
+    @media screen and (max-width: 600px) {
+        //border: 2px solid indigo;
+        h1 {font-size: 2.5rem;} 
+        
+        .work-columns .work-col img {
+            width: 270px;
+            height: 270px;
+            margin-top: 40px;
         }
+        
     }
 
-
-    @media screen and (max-width: 900px) {
-        //border: 2px solid indigo; 
-        display: flex;
-        flex-wrap: wrap;
+    @media screen and (min-width: 601px) and (max-width: 768px) {
+        //border: 2px solid green; 
+        .work-columns .work-col:nth-child(2) {margin-right: 0;}
+        .work-columns .work-col img {
+            width: 275px;
+            height: 275px;
+            margin-top: 60px;
+        }
+        
     }
 
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        //border: 2px solid red; 
+        .work-columns .work-col:nth-child(2) {margin-right: 0;}
+        .work-columns .work-col img {
+            width: 285px;
+            height: 285px;
+            margin-top: 60px;
+        }
+        
+    }
 
 }

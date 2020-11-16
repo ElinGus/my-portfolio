@@ -21,8 +21,6 @@ if ( have_posts() ) :
                     <img src="<?php bloginfo('template_directory'); ?>/images/lightbulb.jpg" alt="work3">   
                 </div>
              </div>
-
-             <div class="portfolio-btn"><button>Se portfolio</button></div>
          </section>
 
         <?php 
