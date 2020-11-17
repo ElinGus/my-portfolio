@@ -8,32 +8,22 @@ if ( have_posts() ) :
     while ( have_posts() ) : the_post(); 
     ?>
     
-    <div class="about-heading"><h1>Jag skulle beskriva min själv...</h1></div>
+    <div class="about-heading"><h1><?php the_field('about_heading'); ?></h1></div>
 
     <section class="about-me">
         <div class="textblock">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <p><?php the_field('about_textarea'); ?></p>
         </div>
 
         <div class="image-col">
-            <img src="<?php bloginfo('template_directory'); ?>/images/Elin_sierrafilter.jpg" alt="Elin">
+            <?php 
+            $image = get_field('about_image');
+            if( !empty( $image ) ): ?>
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
         </div>
     </section>
-        
+    
     <?php    
     endwhile; 
 endif; 

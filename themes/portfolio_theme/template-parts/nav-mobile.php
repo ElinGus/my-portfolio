@@ -1,4 +1,4 @@
-<div class="menu-col">
+<div class="nav-mobile">
     <div class="overlay" id="myNav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
             <i class="fa fa-times"></i>

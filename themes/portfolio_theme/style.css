@@ -229,7 +229,7 @@ body {
 .about-heading h1 {
   font-size: 2rem;
   color: #1c325f;
-  padding-top: 110px;
+  padding-top: 80px;
   padding-left: 80px;
   padding-right: 30px; }
 
@@ -506,7 +506,7 @@ footer {
     padding-bottom: 30px; }
 
 /* line 2, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-.menu-col .overlay {
+.nav-mobile .overlay {
   height: 100%;
   width: 0;
   position: fixed;
@@ -520,14 +520,14 @@ footer {
   -o-background-size: cover;
   background-size: cover; }
   /* line 16, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-  .menu-col .overlay .closebtn {
+  .nav-mobile .overlay .closebtn {
     position: absolute;
     top: 45px;
     right: 45px;
     font-size: 35px;
     color: #1c325f; }
   /* line 24, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-  .menu-col .overlay .overlay-content {
+  .nav-mobile .overlay .overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
@@ -536,13 +536,13 @@ footer {
     display: flex;
     justify-content: center; }
     /* line 34, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-    .menu-col .overlay .overlay-content nav .menu {
+    .nav-mobile .overlay .overlay-content nav .menu {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
       list-style-type: none; }
       /* line 40, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-      .menu-col .overlay .overlay-content nav .menu a {
+      .nav-mobile .overlay .overlay-content nav .menu a {
         color: #1c325f;
         text-decoration: none;
         margin: 10px;
@@ -550,27 +550,27 @@ footer {
         font-size: 2rem;
         display: block; }
         /* line 48, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-        .menu-col .overlay .overlay-content nav .menu a:hover, .menu-col .overlay .overlay-content nav .menu a:focus {
+        .nav-mobile .overlay .overlay-content nav .menu a:hover, .nav-mobile .overlay .overlay-content nav .menu a:focus {
           border-bottom: 2px solid #1c325f; }
         /* line 51, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-        .menu-col .overlay .overlay-content nav .menu a:active {
+        .nav-mobile .overlay .overlay-content nav .menu a:active {
           border-bottom: 2px solid #1c325f; }
       @media screen and (max-width: 600px) {
         /* line 34, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-        .menu-col .overlay .overlay-content nav .menu {
+        .nav-mobile .overlay .overlay-content nav .menu {
           flex-direction: column; } }
   @media screen and (max-height: 450px) {
     /* line 64, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-    .menu-col .overlay a {
+    .nav-mobile .overlay a {
       font-size: 20px; }
     /* line 65, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-    .menu-col .overlay .closebtn {
+    .nav-mobile .overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px; } }
 
 /* line 73, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-.menu-col .burger-menu {
+.nav-mobile .burger-menu {
   position: absolute;
   top: 45px;
   right: 45px;
@@ -580,7 +580,7 @@ footer {
 
 @media screen and (min-width: 601px) {
   /* line 87, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-  .menu-col {
+  .nav-mobile {
     display: none; }
   /* line 88, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
   .logo h1 {
@@ -588,7 +588,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* line 93, ../../../../XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/portfolio_theme/sass/_nav-mobile.scss */
-  .menu-col {
+  .nav-mobile {
     margin: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

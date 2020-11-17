@@ -1,4 +1,4 @@
-.menu-col {
+.nav-mobile {
     .overlay {
         height: 100%;
         width: 0;
@@ -84,11 +84,11 @@
 
 @media screen and (min-width: 601px) {
     //border: 2px solid green; 
-    .menu-col {display: none;}
+    .nav-mobile {display: none;}
     .logo h1 {font-size: 1.7rem;}
 }
 
 @media screen and (max-width: 768px) {
     //border: 2px solid indigo;
-    .menu-col {margin: 5px;}
+    .nav-mobile {margin: 5px;}
 }
