@@ -1,0 +1,94 @@
+.menu-col {
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: #f7f6f2;
+        overflow-x: hidden;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        .closebtn {
+            position: absolute;
+            top: 45px;
+            right: 45px;
+            font-size: 35px;
+            color: #1c325f;
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            margin-top: 30px;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+
+            nav {
+                .menu {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    list-style-type: none;
+                
+                    a {
+                        color: #1c325f;
+                        text-decoration: none;
+                        margin: 10px;
+                        font-family: 'EB Garamond', serif;
+                        font-size: 2rem;
+                        display: block;
+
+                        &:hover, &:focus {
+                            border-bottom: 2px solid #1c325f;
+                        }
+                        &:active {
+                            border-bottom: 2px solid #1c325f;
+                        }
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-height: 450px) {
+            a {font-size: 20px}
+            .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+        }
+    }
+
+    .burger-menu {
+        position: absolute;
+        top: 45px;
+        right: 45px;
+        font-size: 35px;  
+        cursor: pointer;
+        color: #1c325f;
+    }
+
+    
+}
+
+@media screen and (min-width: 601px) {
+    //border: 2px solid green; 
+    .menu-col {display: none;}
+    .logo h1 {font-size: 1.7rem;}
+}
+
+@media screen and (max-width: 768px) {
+    //border: 2px solid indigo;
+    .menu-col {margin: 5px;}
+}

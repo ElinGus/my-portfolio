@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php get_template_part('template-parts/navbar'); ?>
+<?php get_template_part('template-parts/nav-mobile'); ?>
 
 <?php 
 get_header();
@@ -7,7 +8,7 @@ if ( have_posts() ) :
     while ( have_posts() ) : the_post(); 
     ?>
     
-    <div class="about-heading"><h1>Om mig</h1></div>
+    <div class="about-heading"><h1>Jag skulle beskriva min själv...</h1></div>
 
     <section class="about-me">
         <div class="textblock">

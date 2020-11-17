@@ -7,28 +7,39 @@ body {
     h1 {
         font-size: 2rem;
         color: #1c325f;
-        padding-left: 40px;    
+        padding-top: 110px;
+        padding-left: 80px; 
+        padding-right: 30px;   
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 900px) {
         //border: 2px solid indigo; 
-        .about-heading h1 {font-size: 1.8rem;}
+        h1 {
+            font-size: 1.8rem;
+            //padding-top: 20px;
+            padding-left: 20px; 
+            //padding-right: 20px;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 899px) {
+        h1 {
+            padding-top: 40px;
+            padding-left: 60px; 
+            //padding-right: 20px;
+        }
     }
 }
 
 .about-me {
-    //width: 100%;
     display: flex;
     flex-direction: row;
-    //margin-top: 8%;
     margin-bottom: 8%;
-    //border: 3px solid chartreuse;
 
     .textblock {
-        //width: 50%;
         flex-direction: column;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
 
         p {
             font-size: 1.4rem;
@@ -37,10 +48,9 @@ body {
 
 
     .image-col {
-        //width: 50%;
         flex-direction: column;
         padding-left: 40px;
-        padding-right: 40px;
+        padding-right: 80px;
         
         img {
             width: 400px;
@@ -55,8 +65,12 @@ body {
         //border: 2px solid indigo; 
         display: flex;
         flex-wrap: wrap;
-
+        .textblock {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
         .textblock p {font-size: 1.2rem;}
+        .image-col {padding-right: 0;}
         .image-col img {
             width: 300px;
             height: 300px;
@@ -64,19 +78,23 @@ body {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 100%;
+            //width: 100%;
         } 
     }
 
     @media screen and (min-width: 768px) and (max-width: 899px) {
         //border: 2px solid red; 
+        .textblock {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
         .image-col img {
             margin-top: 50px;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 50%;
-        } 
+            width: 40%;
+        }
     }
     
 }
